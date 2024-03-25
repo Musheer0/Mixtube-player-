@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-image: radial-gradient(#323232, transparent, transparent);
+}
+::-webkit-scrollbar-track{
+    background:#09090B;
+    border-radius: 8px;
+    
+}
+.loader{
+    animation: load linear infinite 1s;
+}
+@keyframes load{
+    to{
+        rotate: 360deg;
+    }
+}
+a{
+    text-decoration: none;
+}
+.video_description a{
+    color: #005eff ;
+    text-decoration:underline;
+}
